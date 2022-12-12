@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  background-color: crimson;
+
+  .nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo {
+      color: #fff;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      width: 45%;
+      text-transform: uppercase;
+      list-style-type: none;
+    
+      &--item{
+        &-link{
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+
+  }
+}
